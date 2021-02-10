@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # MyRFMPackage
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.com/uensal/RFMfunctionPackage.svg?branch=master)](https://travis-ci.com/uensal/RFMfunctionPackage)
 <!-- badges: end -->
 
 The goal of MyRFMPackage is to provide you with the RFMfunction.
