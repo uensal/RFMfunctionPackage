@@ -32,8 +32,3 @@ Function that returns the recency, frequency and monetary value KPI.
             The column "PurchAmount" specifies the total spending per purchase.
             The column "Customer" contains cumstomer-ids
 }
-\examples{
-data(transactions)
-RFMfunction(transactions,60,20,20)
-
-}

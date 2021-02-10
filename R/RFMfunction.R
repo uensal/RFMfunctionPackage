@@ -19,11 +19,6 @@
 #  Returned values with a description of what the function returns
 #' @return The Customers with there groups based on the RFM calculation for a given weights \code{weight_recency} \code{weight_frequency} \code{weight_monetary}
 #'
-#  Examples with a set of example R code on how to use the function
-#' @examples
-#' data(transactions)
-#' RFMfunction(transactions,60,20,20)
-#'
 #  Import packages that are required for using your package
 #' @import data.table
 #  Careful: some packages have functions with overlapping names. If this is the case,
