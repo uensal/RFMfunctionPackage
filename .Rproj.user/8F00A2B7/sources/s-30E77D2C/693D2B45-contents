@@ -12,5 +12,15 @@ transactions[, TransDate:=dmy(TransDate)]
 
 temp <- RFMfunction(transactions,20,20,60)
 
+addFirstTwo <- function(vec) {
+  firstEl = vec[1]
+  secondEl = vec[2]
+  print(class(firstEl))
+  print(class(secondEl))
+  return (firstEl + secondEl)
+}
 
-install.packages("roxygen2")
+addFirstTwo(c(2,3))
+addFirstTwo(c(1, "z"))
+
+mean(1:10, trim = NA)
