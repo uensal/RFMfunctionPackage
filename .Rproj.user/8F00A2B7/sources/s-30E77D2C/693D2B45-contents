@@ -1,0 +1,16 @@
+setwd("~/Documents_no_icloud/Schule/Masterstudium/04_Semester/R - a non-technical introduction to big data techniques, team work and interactive visualization with applications to Marketing/data")
+
+library(MyRFMPackage)
+library(data.table)
+library(lubridate)
+library(ggplot2)
+library(Hmisc)
+
+transactions <- fread("transactions.csv")
+transactions[, TransDate:=dmy(TransDate)]
+
+
+temp <- RFMfunction(transactions,20,20,60)
+
+
+install.packages("roxygen2")
